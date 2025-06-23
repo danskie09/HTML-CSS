@@ -42,10 +42,12 @@ body{
 
 .container{
     display: flex;
+    flex: 1;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     gap: 0;
+    margin-bottom: 50px;
 }
 
 .image{
@@ -71,7 +73,9 @@ height: auto;
 .search{
     width: 650px;
     height: 40px;
+   
     display: flex;
+    flex: 1;
     justify-content: space-between;
     align-items: center;
     padding: 4px 6px;
@@ -88,6 +92,7 @@ height: auto;
 
 
 .searchBar{
+    
     width: 530px;
     background-color: transparent;
     border: none;
@@ -105,9 +110,15 @@ height: auto;
     font-size: large;
     margin-left: 2px;
     margin-right: 4px;
-    color: gray;
+    color: black;
     cursor: pointer;
     transition: color 0.3 ease;
+}
+
+
+.icon:hover{
+    color: gray;
+    
 }
 
 
@@ -115,3 +126,98 @@ height: auto;
 
 
 /* input fields */
+
+
+/* bottom */
+
+
+.bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 12px;
+    padding: 5px;
+
+}
+
+.bottom-btn{
+    color: rgb(56, 55, 55);
+    text-decoration: none;
+    background: whitesmoke;
+
+
+
+
+}
+
+.offered{
+    font-size: 14px;
+
+}
+
+.offered span{
+    padding: 2px 2px;
+    color: blue;
+
+}
+
+
+
+
+/* bottom */
+
+
+
+/* footer */
+
+.country{
+    background: whitesmoke;
+    padding: 5px 5px;
+    border-bottom: 1px  solid lightgray;
+    margin: auto;
+    
+    position: fixed;
+    bottom: 50px;
+    left: 0;
+    width: 100%;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: auto;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    border-top: 1px  solid lightgray;
+    
+   
+
+    background: whitesmoke;
+    padding: 5px 0;
+}
+
+.footer-link{
+    
+    list-style-type: none;
+    display: flex;           
+    gap: 15px;              
+    padding: 5px 5px;              
+    margin: 0;  
+    
+}
+
+
+.footer-link li{
+    color: black;
+    margin: 10px 10px;
+}
+
+
+
+
+/* footer */
+
+
