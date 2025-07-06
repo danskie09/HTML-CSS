@@ -202,6 +202,32 @@ text-align: left;
 }
 
 
+.title-grid{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.icon-el{
+    font-size: 14px;
+    border: none;
+    background: none;
+    cursor: pointer;
+
+
+
+}
+
+/* Or better yet, target the button directly */
+.title-grid button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+}
+
 .card img{
     width: 100%;
     height: 100px;
